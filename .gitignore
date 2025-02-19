@@ -1,0 +1,44 @@
+# 🛑 Arquivos e pastas do Python
+__pycache__/
+*.py[cod]
+*.so
+*.log
+
+# 🛑 Ambiente Virtual
+venv/
+env/
+*.env
+
+# 🛑 Configurações do Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🛑 Dependências instaladas (geradas pelo Pip)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# 🛑 Arquivos do Uvicorn (logs e PID)
+*.pid
+*.db
+logs/
+uvicorn.log
+
+# 🛑 Arquivos do MongoDB (dados locais)
+data/
+dump/
+*.bson
+*.lock
+mongod.lock
+
+# 🛑 Cache e outros arquivos do FastAPI
+*.sqlite3
+instance/
+*.db-journal
+sessions/
+
+# 🛑 Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
